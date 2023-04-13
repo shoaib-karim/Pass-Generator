@@ -1,6 +1,6 @@
 function generatePass() {
-  pass_view = document.getElementById("gen_pass");
-  pass_view.innerHTML = generator();
+  const input = document.querySelector("input");
+  input.value = generator();
 }
 
 function generator() {
