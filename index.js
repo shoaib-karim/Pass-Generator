@@ -19,6 +19,7 @@ function generator() {
       Number(max_min[1])
     );
     generatedString = generatedString + String.fromCharCode(generatedNumber);
+    console.log(generatedString, generatedNumber);
   }
   return generatedString;
 }
